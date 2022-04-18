@@ -1,0 +1,55 @@
+.feed{
+    flex: 0.45;
+    margin: 0 20px;
+}
+
+.feed_inputContainer{
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.feed_input{
+    display: flex;
+    padding: 5px;
+    padding-left: 15px;
+}
+.search-avatar{
+    height: 25px;
+    margin-top: 5px;;
+}
+
+.search_input{
+    background-color: #fff;
+    width: 100%;
+}
+.search_input > input{
+    width: 90%;
+    border: 1px solid lightgray;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: 10px;
+    outline-width: 0;
+    font-weight: 800;
+    height:25px;
+
+}
+.search_input > input:hover {
+  cursor: pointer;
+  background-color: #d6cec2;
+
+}
+
+
+
+.search_input > button {
+    display: none;
+}
+
+
+.feed_inputOptions{
+    display: flex;
+    justify-content: space-evenly;
+}
