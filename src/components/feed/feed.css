@@ -12,39 +12,25 @@
 }
 .feed_input{
     display: flex;
-    padding: 5px;
+    padding: 10px;
     padding-left: 15px;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+    color: gray;   
 }
-.search-avatar{
-    height: 25px;
-    margin-top: 5px;;
-}
-
-.search_input{
-    background-color: #fff;
+.feed_input > form{
+    display: flex;
     width: 100%;
 }
-.search_input > input{
-    width: 90%;
-    border: 1px solid lightgray;
-    background-color: #fff;
-    padding: 10px;
-    border-radius: 30px;
+.feed_input > form > input {
+    border: none;
+    flex: 1;
     margin-left: 10px;
     outline-width: 0;
-    font-weight: 800;
-    height:25px;
-
-}
-.search_input > input:hover {
-  cursor: pointer;
-  background-color: #d6cec2;
-
+    font-weight:  800;
 }
 
-
-
-.search_input > button {
+.feed_input > form > button {
     display: none;
 }
 
